@@ -218,5 +218,10 @@ li i {
 	}
 }
 
+.hello{
+  font-size: 40px;
+  text-align: center;
+  color: #20C672;
+}
 
 /* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
