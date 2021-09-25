@@ -128,11 +128,17 @@ a {
 }
 
 .laptop1{
-  font-size: 20px;
+  font-size: 30px;
   text-align: right;
 }
 
 .info{
   font-size: 30px;
   text-align: right;
+}
+
+.laptop2{
+  font-size: 40px;
+  color: #20C668;
+  text-align: center;
 }
