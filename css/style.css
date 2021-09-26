@@ -36,10 +36,12 @@
   grid-template-areas:
   "form info";
   grid-gap: 20px;
+  margin-top: 20px;
 }
 
 .form{
   grid-area: form;
+  font-size: 20px;
 }
 
 .info{
@@ -48,13 +50,18 @@
 
 .contact{
   padding: 40px;
-  background: #fff;
+  background: #03a9f5;
   box-sizing: 0 5px 35px rgba(0,0,0,0.15);
 }
 
-body{
-  background: linear-gradient(to right, #EBCC23 , #DD1E1E);
+.contact h3{
+  color: #0e3959;
+  font-weight: 500;
+  font-size: 1.4em;
+  margin-bottom: 10px;
 }
+
+
 
 
 .img{
@@ -183,7 +190,7 @@ a {
 .hello{
   font-size: 40px;
   text-align: center;
-  color: #20C672;
+  color: #2328EB;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
