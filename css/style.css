@@ -4,7 +4,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
+.title{
+  background: linear-gradient( 90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
+}
+
+.contactus{
+  position: relative;
+  width: 100%;
+}
+
+.contactus .title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.contactus .title h2{
+  color: #fff;
+  font-weight: 500;
+}
+
+.box{
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas:
+  "form info";
+  grid-gap: 20px;
+}
+
+.form{
+  grid-area: form;
+}
+
+.info{
+  grid-area: info;
+}
+
+.contact{
+  padding: 40px;
+  background: #fff;
+  box-sizing: 0 5px 35px rgba(0,0,0,0.15);
+}
+
+body{
+  background: linear-gradient(to right, #EBCC23 , #DD1E1E);
+}
+
 
 .img{
   width: 100%;
@@ -135,4 +186,5 @@ a {
   color: #20C672;
 }
 
-/* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
