@@ -125,3 +125,9 @@ a {
 .laptop{
     font-size: 30px;
 }
+
+.end{
+    font-size: 40px;
+    text-align: center;
+    color: #2328EB;
+}
